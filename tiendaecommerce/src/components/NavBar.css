@@ -1,0 +1,9 @@
+.main-navbar {
+    background-color: rgb(4, 83, 114);
+    color: rgb(231, 231, 231);
+}
+.fin {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
