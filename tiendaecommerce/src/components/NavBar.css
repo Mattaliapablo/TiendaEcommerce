@@ -5,5 +5,15 @@
 .fin {
     width: 100%;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
+}
+
+.cart-widget{
+    width: auto;
+    height: 30px;
+    color: white;
+}
+
+.contador-carrito{
+    color: white;
 }
