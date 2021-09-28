@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import ItemCount from './ItemCount'
+import ItemList from './ItemList'
 
 
 const Item = ({
@@ -17,7 +18,7 @@ const Item = ({
         <div className="card-body">
           <h5 className="card-title">{title}</h5>
           <p>{description}</p>
-          <p className="card-text">{price}</p>
+          <p className="card-text">${price}</p>
           <p>Stock: {stock}</p>  
           <ItemCount stock={10}/>               
         </div>
